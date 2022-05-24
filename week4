@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+        table, th, td, tr { 
+            border: 1px solid black; 
+            border-collapse: collapse; 
+            padding:5px; text-align: center;
+        }
+        h2,p{
+            font-style: Times New Roman;
+            text-align: center;
+        }
+    </style>
+        <title> Week 4</title>
+    </head>
+        <body>
+            <h1 ALIGN ="center"> Nested HTML Table</h1>
+            <table BORDER ="1" Width ="400" ALIGN="center">
+                <tr>
+                    <td>foo</td>
+                    <td>bar</td>
+                    <td>baz</td>
+                </tr>
+
+                <tr>
+                    <td rowspan="2">
+                    <table border="1" width="100" Align="center">
+                        <tr>
+                            <td>one</td>
+                            <td >two</td>
+                            <td>Three</td>
+                        </tr>
+                        <tr>
+                            <td>four</td>
+                            <td>five</td>
+                            <td>Six</td>
+                        </tr>
+                        <tr>
+                            <td>seven</td>
+                            <td>eight</td>
+                            <td>Nine</td>
+                        </tr>
+                    </table>
+                    </td> 
+                </tr>
+               
+                <tr>  
+                    <td rowspan="2" colspan="2">
+                    <table Align="center">
+                        <tr>
+                            <td>Lorem</td>
+                            <td>Ipsum</td>
+                            <td rowspan="2" width="200">sit</td>
+                        </tr>
+                        <tr>
+                            <td>amet</td>
+                            <td>consectetur</td>
+                        </tr>
+                    </table>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>abc</td>
+                </tr>    
+                
+            </table>
+            <br>
+            <h2>Group 2</h2>
+            <p>
+                <b>Leader:</b>Ogena, Cristian
+            </p>
+            <p>
+                <b>Members:</b>
+                <br>Castillo, John Alex
+                <br>Simon, Francis Daryl
+                <br>Sumugat, Nelson John
+                <br>Resonable, Ymeri Cate
+                <br>Tamayao, Ma. Hannah Graciel
+                <br>Tilo, Cristine
+            </p>
+        </body>
+
+    
+    
+</html>
